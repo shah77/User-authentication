@@ -12,6 +12,7 @@
         "node":true
     },
     "rules":{
-        "react/jsx-filename-extension": [1, {"extension":[]}]
+        "react/jsx-filename-extension": [1, {"extension":[]}],
+        "no-underscore-dangle": { "allow ": ["_id"]}
     }
 }
